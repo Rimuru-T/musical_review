@@ -1,0 +1,16 @@
+name: 'music_reviews'
+version: '1.0'
+config-version: 2
+profile: 'music_reviews'
+
+model-paths: ["models"]
+
+
+models:
+  music_reviews:
+    staging:
+      materialized: table
+    core:
+      materialized: table
+    datamart:
+      materialized: view

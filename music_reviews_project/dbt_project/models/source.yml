@@ -1,0 +1,6 @@
+sources:
+  - name: my_postgres_source
+    database: music_reviews
+    schema: raw
+    tables:
+      - name: staging_reviews

@@ -1,0 +1,12 @@
+music_reviews:  
+  outputs:  
+    dev:  
+      dbname: music_reviews  
+      host: postgres  
+      pass: "5340"  
+      port: 5432  
+      schema: raw  
+      threads: 4  
+      type: postgres  
+      user: root  
+  target: dev
